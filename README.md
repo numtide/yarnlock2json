@@ -5,6 +5,22 @@ produce a JSON file. The intent is to use the result as a data source for
 nix since nix can read JSON natively. Because we're using the official parser
 it's going to be easier to keep this up2date.
 
+## Usage
+
+```
+  Usage: yarnlock2json [options]
+
+  Transforms yarn.lock files to JSON
+
+  Options:
+
+    -h, --help           output usage information
+    -V, --version        output the version number
+    -d, --dir <path>     directory path where the yarn.lock file is located (default to current directory)
+    -o, --output <path>  file path to write the JSON to (default to stdout)
+    -p, --pretty         indent the output
+```
+
 ## TODO
 
 Write the nix counterpart that can take advantage of that JSON output.

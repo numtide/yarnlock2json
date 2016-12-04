@@ -5,7 +5,7 @@ const wrapper = require("./node_modules/yarn/lib/lockfile/wrapper");
 
 program 
   .version('0.0.1')
-  .description('Transforms yarn.lock files to JSON')
+  .description('Convert `yarn.lock` files to JSON')
   .option('-d, --dir <path>', 'directory path where the yarn.lock file is located (default to current directory)')
   .option('-o, --output <path>', 'file path to write the JSON to (default to stdout)')
   .option('-p, --pretty', 'indent the output')
