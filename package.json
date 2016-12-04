@@ -1,0 +1,27 @@
+{
+  "name": "yarnlock2json",
+  "version": "1.0.0",
+  "description": "Converts the yarn.lock file into JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numtide/yarnlock2json.git"
+  },
+  "keywords": [
+    "yarn",
+    "nix"
+  ],
+  "author": "NumTide Ltd <info@numtide.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/numtide/yarnlock2json/issues"
+  },
+  "homepage": "https://github.com/numtide/yarnlock2json#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "yarn": "^0.18.0"
+  }
+}
